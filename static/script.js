@@ -1,5 +1,3 @@
-
-
 const menuMobile = document.querySelector('.menu-mobile')
 const body = document.querySelector('body')
 
