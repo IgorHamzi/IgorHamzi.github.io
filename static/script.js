@@ -38,3 +38,15 @@ const animeScroll = () => {
 window.addEventListener("scroll", () => {
   animeScroll();
 })
+
+const btnEnviar = document.querySelector('#btn-enviar')
+const btnEnviarLoader = document.querySelector('#btn-enviar-loader')
+
+btnEnviar.addEventListener("click", () => {
+  btnEnviarLoader.style.display = "block";
+  btnEnviar.style.display = "none";
+})
+
+setTimeout(() => {
+  document.querySelector('#alert').style.display = 'none'
+}, 5000)

@@ -7,9 +7,9 @@ app.secret_key = 'ighmz'
 
 mail_settings = {
     "MAIL_SERVER": 'smtp.gmail.com',
-    "MAIL_PORTER": 465,
-    "MAIL_USE_TLS": False,
-    "MAIL_USE_SSL": True,
+    "MAIL_PORTER": 587,
+    "MAIL_USE_TLS": True,
+    "MAIL_USE_SSL": False,
     "MAIL_USERNAME": email,
     "MAIL_PASSWORD": senha,
 }
@@ -19,8 +19,8 @@ mail = Mail(app)
 
 class Contato:
     def __init__(self, nome, email, mensagem):
-        self.nome = nome,
-        self.email = email, 
+        self.nome = nome
+        self.email = email
         self.mensagem = mensagem
 
 @app.route('/')
