@@ -1,6 +1,5 @@
 from flask import Flask, render_template, redirect, request, flash
 from flask_mail import Mail, Message
-from config import email, senha
 
 app = Flask(__name__)
 app.secret_key = 'ighmz'
@@ -10,8 +9,8 @@ mail_settings = {
     "MAIL_PORTER": 587,
     "MAIL_USE_TLS": True,
     "MAIL_USE_SSL": False,
-    "MAIL_USERNAME": email,
-    "MAIL_PASSWORD": senha,
+    "MAIL_USERNAME": 'igorhmz.dev@gmail.com',
+    "MAIL_PASSWORD": 'vdrveglgxdvvcxuq',
 }
 
 app.config.update(mail_settings)

@@ -59,7 +59,6 @@ pexpect==4.6.0
 Pillow==7.0.0
 platformdirs==2.5.2
 pluggy==1.0.0
--e git+git@github.com:IgorHamzi/algorithms.git@43401a5cdd196185eef45303f72c90f6353bd50d#egg=project_algorithms
 protobuf==3.6.1
 psutil==5.5.1
 py==1.11.0
