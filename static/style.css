@@ -83,7 +83,7 @@ html, body{
 }
 
 section#inicio{
-    background-image: url("./img/capa.png");
+    background-image: url("./img/banner.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -160,8 +160,7 @@ i.menu-mobile{
 
 }
 
-/* barra de rolamento abaixo*/
-/* *::-webkit-scrollbar{
+*::-webkit-scrollbar{
     width: 10px;
 }
 
@@ -173,7 +172,7 @@ i.menu-mobile{
 
 *::-webkit-scrollbar-thumb{
     background-color: #252c90;
-} */
+}
 
 .section-bg{
     background-color: #eff5ff
