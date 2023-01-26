@@ -83,7 +83,7 @@ html, body{
 }
 
 section#inicio{
-    background-image: url("./img/banner.jpeg");
+    background-image: url("./img/banner.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
