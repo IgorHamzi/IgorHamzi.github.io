@@ -344,6 +344,10 @@ i.menu-mobile{
         -webkit-animation: none;
                 animation: none;
     }
+
+    .icons{
+        display: none;
+    }
 }
 
 .shadow-drop-2-tl {
